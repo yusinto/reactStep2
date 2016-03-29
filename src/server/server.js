@@ -9,9 +9,11 @@ const htmlString = `<!DOCTYPE html>
           </head>
           <body>
             <div id="reactDiv" />
-            <script type="application/javascript" src="/dist/bundle.js" />
+            <script type="application/javascript" src="/dist/bundle.js"></script>
           </body>
     </html>`;
+
+app.use('/dist', Express.static('dist'));
 
 app.use((req, res) => {
     res.end(htmlString);

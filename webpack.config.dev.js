@@ -1,16 +1,17 @@
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
-    entry: ['./src/client/index'],
+    entry: [path.join(__dirname, 'src/client/index')],
     output: {
-        path: './dist',
+        path: path.join(__dirname, 'dist'),
         filename: 'bundle.js'
     },
     module: {
         loaders:[{
             test: /\.jsx?$/,
             loader: 'babel',
-            include: './src'
+            include: path.join(__dirname, 'src')
         }]
     }
 };
