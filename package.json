@@ -36,6 +36,6 @@
   },
   "devDependencies": {
     "babel-loader": "^6.2.4",
-    "webpack": "^2.0.6-beta"
+    "webpack": "^2.1.0-beta"
   }
 }
