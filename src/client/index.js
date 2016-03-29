@@ -1,3 +1,5 @@
-/**
- * Created by yngadiman on 29/03/2016.
- */
+import React from 'react';
+import {render} from 'react-dom';
+import App from '../common/component/appComponent';
+
+render(<App />, document.getElementById('reactDiv'));
