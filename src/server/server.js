@@ -9,7 +9,7 @@ const htmlString = `<!DOCTYPE html>
           </head>
           <body>
             <div id="reactDiv" />
-            <script type="application/javascript" src="/dist/bundle.js"></script>
+            <script src="/dist/bundle.js"></script>
           </body>
     </html>`;
 
